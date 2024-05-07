@@ -1,0 +1,86 @@
+body {
+    background: url(../../Sources/57f7cb2f-1a07-4e3c-bb8a-81f47d51e6ea.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+#logindiv {
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: 444px;
+    margin: 10rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+}
+
+#loginheader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#portalname {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+#logo {
+    width: 60px;
+    height: 100px;
+    background-size: cover;
+}
+
+#clgname {
+    margin-bottom: 20px;
+    font-family: montserrat;
+}
+
+#formelements {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#formelements {
+    width: 248px;
+    height: 32px;
+    margin-bottom: 20px;
+
+}
+
+#forminput {
+    width: 248px;
+    height: 32px;
+    font-family: montserrat;
+    font-weight: 200;
+    font-size: small;
+    padding: 8px;
+
+}
+
+#loginbody {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#submitbutton {
+    width: 266px;
+    height: 32px;
+    margin-bottom: 20px;
+    padding: 4px;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+#loginfooter {
+    margin-top: 20px;
+}
