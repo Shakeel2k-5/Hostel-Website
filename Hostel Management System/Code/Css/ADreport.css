@@ -1,0 +1,32 @@
+.report{
+    font-weight: bold;
+}
+
+#reporttable{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    margin-right: 300px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#heading{
+    margin-bottom: 20px;
+    font-weight: 500;   
+}
+
+#clearalltext{
+    color: #388087;
+    font-size: smaller;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+
+#contentdiv{
+    row-gap: 80px;
+}

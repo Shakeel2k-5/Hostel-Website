@@ -1,0 +1,121 @@
+#gcelogo {
+    width: 120px;
+    height: 104px;
+    object-fit: cover;
+}
+
+#bodycontent{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    align-items: center;
+}
+
+#bodyicon{
+    width: 28px;
+}
+
+#bodytext{
+    font-size: medium;
+}
+
+#maindiv{
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: row;
+    column-gap: 200px;
+}
+
+#sidebardiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 680px;
+    margin-bottom: 20px;
+}
+
+#sidebarbodydiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#sidebarfooterdiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    
+}
+
+body{
+    font-family: montserrat;
+}
+
+#logoutdiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    align-items: center;
+    background-color: #388087;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+#profilelogo{
+    width: 40px;
+}
+
+#logouttext{
+    color: white;
+}
+
+#headertext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#clgname{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#hosteltext{
+    font-weight: 400;
+    font-size: large;
+}
+
+#admintext{
+    font-weight: bold;
+}
+
+#contentheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 920px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+#contentdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

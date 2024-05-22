@@ -1,0 +1,61 @@
+.adduser{
+    font-weight: bold;
+}
+
+#contentdiv{
+    align-items: flex-start;
+}
+
+#pageheading{
+    font-size: large;
+    font-weight: 600;
+}
+
+#contentbody{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: flex-start;
+}
+
+#forminputdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+#addusersubdiv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-left: 40px;
+}
+
+#adduserformdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+#forminput{
+    height: 24px;
+    font-family: montserrat;
+}
+
+#submitbutton{
+    width: 100px;
+    height: 36px;
+    margin-top: 24px;
+    margin-left: 40px;
+    background-color: #388087;
+    color: white;
+    font-weight:medium;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body{
+    font-family: montserrat;
+}

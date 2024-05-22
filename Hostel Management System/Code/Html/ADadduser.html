@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="../Css/ADsidebar.css">
+    <link rel="stylesheet" href="../Css/ADadduser.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="../Js/jquery-3.7.1.min.js"></script>
+    <script src="../Js/ADadduser.js"></script>
+
+    <script>
+        function logout(){
+            sessionStorage.clear();
+            window.location = "ADlogin.html"
+        }
+    </script>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="sidebardiv">
+            <div id="sidebarheaderdiv">
+                <div id="gcelogo"><img src="../../Sources/GCE Logo.png" alt=""></div>
+            </div>
+
+            <div id="sidebarbodydiv">
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/material-symbols_space-dashboard-outline.svg" alt="">
+                    <div id="bodytext" class="dashboard"><a href="ADdashboard.html">Dashboard</a></div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/mdi_account-student-outline.svg" alt="">
+                    <div id="bodytext" class="outpass"><a href="ADoutpass.html">Outpass</a></div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/ic_outline-report-problem.svg" alt="">
+                    <div id="bodytext" class="report"><a href="ADreport.html">Report</a></div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/person_add-1.svg" alt="">
+                    <div id="bodytext" class="adduser">Add user</div>
+                </div>
+            </div>
+
+            <div id="sidebarfooterdiv">
+                <div id="logoutdiv" onclick="logout()" style="cursor: pointer;">
+                    <div> <img id="bodyicon" src="../../Sources/Icons/ic_baseline-logout.svg" alt="" class="logout"></div>
+                    <div id="logouttext" >Logout</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contentdiv">
+            <div id="contentheader">
+                <div id="headertext">
+                    <div><span id="clgname"> Government College Of Engineering, Erode </span></div>
+                    <div><span id="hosteltext"> Hostel Management System </span> </div>
+                    <div><span id="admintext"> ADMIN PORTAL </span> </div>
+                </div>
+
+                <div>
+                    <img id="profilelogo"  src="../../Sources/Icons/account_circle.svg" alt="">
+                </div>
+            </div>
+            <div id="contentbody">
+                <div id="pageheading">Add User</div>
+                <div>
+                    <form id="adduserform">
+                        <div id="adduserformdiv">
+                            <div id="addusersubdiv">
+                                <div id="forminputdiv">
+                                    <label for="name" style="font-weight: 500;">Name</label>
+                                    <input type="text" id="forminput" class="name" style="width: 240px;" maxlength="25" required>
+                                </div>
+
+                                <div id="forminputdiv">
+                                    <label for="rollno" style="font-weight: 500;">Roll no</label>
+                                    <input type="text" id="forminput" class="rollno" style="width: 240px;" maxlength="10" required>
+                                </div>
+
+                                <div id="forminputdiv">
+                                    <label for="branch" style="font-weight: 500;">Branch</label>
+                                    <input type="text" id="forminput" class="branch" style="width: 240px;" maxlength="5" required>
+                                </div>
+                            </div>
+
+                            <div id="addusersubdiv">
+                                <div id="forminputdiv">
+                                    <label for="year" style="font-weight: 500;">Year</label>
+                                    <input type="number" id="forminput" class="year" style="width: 240px;" max="4" min="1" required>
+                                </div>
+                                <div id="forminputdiv">
+                                    <label for="block" style="font-weight: 500;">Hostel Block</label>
+                                    <input type="text" id="forminput" class="block" style="width: 240px;" max="5" required>
+                                </div>
+
+                                <div id="forminputdiv">
+                                    <label for="roomno" style="font-weight: 500;">Room no</label>
+                                    <input type="number" id="forminput" class="roomno" style="width: 240px;" max="50" min="1" required>
+                                </div>
+                            </div>
+
+                            <div id="addusersubdiv">
+                                <div id="forminputdiv">
+                                    <label for="district" style="font-weight: 500;">District</label>
+                                    <input type="text" id="forminput" class="district" style="width: 240px;" maxlength="10" required>
+                                </div>
+
+                                <div id="forminputdiv">
+                                    <label for="phonenumber" style="font-weight: 500;">Phone Number</label>
+                                    <input type="text" id="forminput" class="phonenumber" style="width: 240px;" maxlength="10" required>
+                                </div>
+
+                                <div id="forminputdiv">
+                                    <label for="email" style="font-weight: 500;">Email</label>
+                                    <input type="text" id="forminput" class="email" style="width: 240px;" maxlength="40" required>
+                                </div>
+                            </div>
+
+                            <div><button type="submit" style="margin-left: 40px;" id="submitbutton">Create User</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

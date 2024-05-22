@@ -1,0 +1,66 @@
+.dashboard{
+    font-weight: bold;
+}
+
+#wardentext{
+    font-size:medium;
+    font-weight: bold;
+}
+
+#welcometext{
+    font-size: small;
+}
+
+#recentrequesttext{
+    font-size: medium;
+    font-weight: 600;
+}
+
+#contentbody{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: flex-start;
+}
+
+#heading{
+    font-weight: 520;
+}
+
+#requesttablediv{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    column-gap: 40px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 0.4px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 80px;
+}
+
+#recentrequestsdiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: 80px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#headingcolumn{
+    margin-bottom: 20px;
+}
+
+#contentdiv{
+    align-items: flex-start;
+}

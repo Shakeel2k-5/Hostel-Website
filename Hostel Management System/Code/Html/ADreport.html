@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="../Css/ADsidebar.css">
+    <link rel="stylesheet" href="../Css/ADreport.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="../Js/jquery-3.7.1.min.js"></script>
+    <script src="../Js/ADreport.js"></script>
+
+    <script>
+        function logout(){
+            sessionStorage.clear();
+            window.location = "ADlogin.html"
+        }
+    </script>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="sidebardiv">
+            <div id="sidebarheaderdiv">
+                <div id="gcelogo"><img src="../../Sources/GCE Logo.png" alt=""></div>
+            </div>
+
+            <div id="sidebarbodydiv">
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/material-symbols_space-dashboard-outline.svg" alt="">
+                    <div id="bodytext" class="dashboard"><a href="ADdashboard.html">Dashboard</a></div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/mdi_account-student-outline.svg" alt="">
+                    <div id="bodytext" class="outpass"><a href="ADoutpass.html">Outpass</a></div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/ic_baseline-report-problem.svg" alt="">
+                    <div id="bodytext" class="report">Report</div>
+                </div>
+
+                <div id="bodycontent">
+                    <img id="bodyicon" src="../../Sources/Icons/person_add.svg" alt="">
+                    <div id="bodytext" class="adduser"><a href="ADadduser.html">Add user</a></div>
+                </div>
+            </div>
+
+            <div id="sidebarfooterdiv">
+                <div id="logoutdiv" onclick="logout()" style="cursor: pointer;">
+                    <div> <img id="bodyicon" src="../../Sources/Icons/ic_baseline-logout.svg" alt="" class="logout"></div>
+                    <div id="logouttext" >Logout</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contentdiv">
+            <div id="contentheader">
+                <div id="headertext">
+                    <div><span id="clgname"> Government College Of Engineering, Erode </span></div>
+                    <div><span id="hosteltext"> Hostel Management System </span> </div>
+                    <div><span id="admintext"> ADMIN PORTAL </span> </div>
+                </div>
+
+                <div>
+                    <img id="profilelogo"  src="../../Sources/Icons/account_circle.svg" alt="">
+                </div>
+            </div>
+            <div id="contentbody">
+                <div id="clearalltext" style="cursor: pointer;" onclick="clearall()">Clear all</div>
+                <div id="reporttable">
+                    <div id="rollnocolumn" class="column"> 
+                        <div id="heading">Roll no</div>
+                    </div>
+                    <div id="blockcolumn" class="column">
+                        <div id="heading">Block</div>
+                    </div>
+                    <div id="roomnocolumn" class="column">
+                        <div id="heading">Room no</div>
+                    </div>
+                    <div id="reportcolumn" class="column">
+                        <div id="heading">Report</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+.outpass{
+    font-weight: bold;
+}
+
+#acceptalltext{
+    color: #388087;
+    font-size: smaller;
+    margin-left: 200px;
+}
+
+#requestheading{
+    font-size:x-large;
+    font-weight: 500;
+}
+
+#outpassrequestdiv{
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    padding: 60px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 0.4px;
+}
+
+#requestrollno{
+    font-size: medium;
+}
+
+#requestname{
+    font-size: large;
+}
+
+#requestinfodiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+#datetopic{
+    font-size: medium;
+    font-weight: bold;
+}
+
+#datediv{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+
+#accepttext{
+    color: #44cc77;
+    font-weight: bold;
+}
+
+#rejecttext{
+    color: #d53355;
+    font-weight: bold;
+}
+
+#requestfooter{
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+}
